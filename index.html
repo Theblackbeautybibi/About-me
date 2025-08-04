@@ -3,42 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bimbola's About Me</title>
+  <title>Bimbola's Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f0f4f8;
+      font-family: 'Poppins', sans-serif;
+      background: #e6f2ff;
       color: #333;
       text-align: center;
-      padding: 50px;
+      padding: 40px;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid #4a90e2;
     }
     h1 {
       color: #4a90e2;
+      font-size: 32px;
     }
     p {
       font-size: 18px;
-      max-width: 500px;
-      margin: 10px auto;
+      line-height: 1.6;
     }
-    .box {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    a.button {
       display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #4a90e2;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #357abd;
     }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="Bimbola's Photo">
     <h1>Hello! I'm Bimbola 👋</h1>
     <p>
       I'm a student exploring the world of coding and technology.  
-      My dream is to study software engineering and build cool projects!  
+      My dream is to study software engineering and build amazing projects.  
     </p>
-    <p>
-      Stay tuned — this is just the beginning of my journey. 🚀
-    </p>
+    <a class="button" href="#">See My Projects</a>
   </div>
 </body>
 </html>
